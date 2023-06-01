@@ -1,28 +1,13 @@
 import useForm from "../hooks/useForm"
 import { useNavigate } from 'react-router-dom';
-import * as auth from "./Auth"
 
-const Login = ({ handleLogin, openErrorInfoTooltip }) => {
+const Login = ({ onLogin }) => {
     const navigate = useNavigate();
     const { values, handleChange, setValues } = useForm({});
 
     const handleSubmit = (evt) => {
         evt.preventDefault();
-        if (!values.email || !values.password) {
-            return;
-        }
-        auth.authorize(values.email, values.password)
-            .then((res) => {
-                if (res.token) {
-                    setValues({ email: '', password: '' });
-                    handleLogin()
-                    navigate('/', { replace: true });
-                }
-            })
-            .catch(err => {
-                console.log(err)
-                openErrorInfoTooltip(true)
-            })
+        onLogin(values, setValues)
     }
 
     return (

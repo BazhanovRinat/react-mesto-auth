@@ -1,27 +1,14 @@
 import NavBar from './NavBar';
 import { useNavigate } from 'react-router-dom';
 import useForm from "../hooks/useForm"
-import * as auth from "./Auth"
 
-const Register = ({ openCorrectInfoTooltip, openErrorInfoTooltip }) => {
+const Register = ({ onRegister }) => {
     const navigate = useNavigate();
     const { values, handleChange, setValues } = useForm({});
 
     function handleSubmit(e) {
         e.preventDefault();
-        auth.register(values.email, values.password)
-            .then((res) => {
-                if (res) {
-                    navigate('/sign-in', { replace: true })
-                    openCorrectInfoTooltip(true)
-                    console.log("yes")
-                }
-            })
-            .catch(err => {
-                console.log(err)
-                openErrorInfoTooltip(true)
-                console.log("no")
-            })
+        onRegister(values, setValues)
     }
 
 
