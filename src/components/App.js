@@ -39,6 +39,7 @@ function App() {
   const navigate = useNavigate()
 
   useEffect(() => {
+    if (loggedIn) {
     api.profileDataInstall()
       .then((data) => {
         setCurrentUser(data)
@@ -54,6 +55,7 @@ function App() {
       .catch((error) => {
         console.log(`${error}`);
       })
+    }
     tokenCheck();
   }, [loggedIn])
 
