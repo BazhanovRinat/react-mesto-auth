@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-mesto-auth/static/css/main.2db82bed.css",
+    "main.js": "/react-mesto-auth/static/js/main.db59e05c.js",
+    "static/media/Inter-500.woff": "/react-mesto-auth/static/media/Inter-500.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-900.woff": "/react-mesto-auth/static/media/Inter-900.c6938660eec019fefd68.woff",
+    "static/media/Inter-400.woff": "/react-mesto-auth/static/media/Inter-400.8c206db99195777c6769.woff",
+    "static/media/Inter-500.woff2": "/react-mesto-auth/static/media/Inter-500.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-900.woff2": "/react-mesto-auth/static/media/Inter-900.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-400.woff2": "/react-mesto-auth/static/media/Inter-400.c8ba52b05a9ef10f4758.woff2",
+    "static/media/logo.svg": "/react-mesto-auth/static/media/logo.93746a6dc57e8167eede5314b1699a8b.svg",
+    "static/media/like.svg": "/react-mesto-auth/static/media/like.87ed371465c7a6a1cd01.svg",
+    "index.html": "/react-mesto-auth/index.html",
+    "static/media/errorInfoTooltip.svg": "/react-mesto-auth/static/media/errorInfoTooltip.df8eddf661ff88f2d0efd3d570d14309.svg",
+    "static/media/trash.svg": "/react-mesto-auth/static/media/trash.823b0cf1b0b7e9cb7cad.svg",
+    "static/media/correctInfoTooltip.svg": "/react-mesto-auth/static/media/correctInfoTooltip.1b6082f862eac35e2514460237d96ecc.svg",
+    "static/media/like-active.svg": "/react-mesto-auth/static/media/like-active.fe17a515669479b1e649.svg",
+    "static/media/edit-button.svg": "/react-mesto-auth/static/media/edit-button.8667ac4a523e8fc42e59.svg",
+    "static/media/close-icon.svg": "/react-mesto-auth/static/media/close-icon.2ceb783afbab75916ddc.svg",
+    "static/media/add-button.svg": "/react-mesto-auth/static/media/add-button.d86bb2edc2f6eadb96b7.svg",
+    "main.2db82bed.css.map": "/react-mesto-auth/static/css/main.2db82bed.css.map",
+    "main.db59e05c.js.map": "/react-mesto-auth/static/js/main.db59e05c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2db82bed.css",
+    "static/js/main.db59e05c.js"
+  ]
+}
